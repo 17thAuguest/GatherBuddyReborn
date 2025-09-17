@@ -52,7 +52,7 @@ namespace GatherBuddy.AutoGather
                     return;
                 }
 
-                doMount = () => am->UseAction(ActionType.GeneralAction, 24);
+                doMount = () => am->UseAction(ActionType.GeneralAction, 9);
             }
 
             if (!GatherBuddy.Config.AutoGatherConfig.MoveWhileMounting)
